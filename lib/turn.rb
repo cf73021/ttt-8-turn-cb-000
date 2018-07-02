@@ -33,7 +33,6 @@ def display_board(board)
 end
 
 def move(board, index, value = "X")
-  valid_move?(board, index)
   board[index] = value
 end
 
